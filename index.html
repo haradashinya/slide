@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+        <style>
+            p {
+                padding: 3em;
+            }
+            .left {
+                text-align: left;
+            }
+        </style>
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Trick Star</h1>
+					<h3>Uploading tech video via Trick Star feels you  better.</h3>
+					<p>
+						<small>Created by <a href="http://furodrive.com"
+                                target="_blank">@furodrive</a> </small>
+					</p>
+				</section>
+
+				<section>
+					<h2>自己紹介</h2>
+                    <p>
+                    職業は???です。
+                    </p>
+                    <p>
+                    趣味で個人的にWebアプリケーションを作ったりしています。
+                    </p>
+                    <p>
+                    岡村靖幸が好きです。
+                    </p>
+
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<h2>Trick Starの開発のきっかけ</h2>
+                        <p class="left">
+                        youtubeの動画にたくさんのプログラミング動画が上がってるけど、いい感じの動画がうまく見つけれない。
+                        </p>
+                        <p class="left">
+                        いい感じの動画を集めれる評価の仕組みを作るともっと簡単に良質な動画を集めれるのではないか？
+                        </p>
+
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>ターゲットユーザー</h2>
+                        <ul>
+                            <li> 手っ取り早くいい感じの動画を見てプログラミングを学びたい</li>
+                            <li>自分がUploadした動画をTech界隈で評価されたい</li>
+                        </ul>
+					</section>
+				</section>
+
+
+
+				<section>
+					<h2>デモ</h2>
+					<p>
+					文章で説明すると長くなりますので、実際のサービスを見てください:)
+					</p>
+                    <p>
+                    <a href="http://www.trickstar.info" target="_blank">Click
+                        it.</a>
+                    </p>
+				</section>
+
+				<section>
+					<h2>費用の話</h2>
+                    <p>
+                    主にかかる費用はサーバーの費用です。
+                    </p>
+					<p>
+					   現在は月額500円のサーバーを借りて運用しています。
+					</p>
+                    <p>
+                       これまでにかかった開発費はデザイン、プログラミングを自分ひとりで行ったのでゼロです。
+                    </p>
+                    <p>ユーザー数が増えたところでサーバーはAmazon
+                    EC2で置き換えて運用していく予定です。</p>
+
+				</section>
+
+				<section>
+					<h2>収益化の話</h2>
+                    <p>
+                     最初はGoogleAdsenceによる収益を行います。
+                    </p>
+                    <p>
+                    ユーザー数は来年度中に登録ユーザー一万人を目指しています。
+                    </p>
+                    <p>
+                    サービスにブランド力がついたら、スポンサーを募ります。
+                    </p>
+				</section>
+
+				<section>
+					<h2>出資金の使い道</h2>
+                    <p>僕自身が開発・デザインをするための最低限必要な生活費とサーバー代に当てます。</p>
+                    <p>僕の生活費: 一ヶ月10万円</p>
+                    <p>サーバーの維持費: ~1万円</p>
+                    <p>一年間開発したとしても必要な金額は120~130万円と見積もっています</p>
+				</section>
+
+                <section>
+                <h2>ONE MORE THING</h2>
+                <p>仕組みは同じでLoginシステムをGithub認証からTwitter認証に変えて、動画を一般向けにすると...</p>
+
+                </section>
+
+				<section>
+					<h2>終わり</h2>
+                    <p>ご清聴ありがとうございました。</p>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
