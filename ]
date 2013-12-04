@@ -87,7 +87,12 @@
 					</section>
 				</section>
 
-
+				<section>
+					<section>
+                        <h2>サービスの概要/h2>
+                        <p class="left">
+					</section>
+				</section>
 
 
 				<section>
@@ -103,31 +108,29 @@
 
 
 				<section>
-                    <h2>Demo Time</h2>
+					<h2>デモ</h2>
 					<p>
-					実際のサービスを見てください :)
+					文章で説明すると長くなりますので、実際のサービスを見てください:)
 					</p>
                     <p>
-                    <a href="http://www.trickstar.info"
-                        target="_blank">Click it. </a>
+                    <a href="http://www.trickstar.info" target="_blank">Click
+                        it.</a>
                     </p>
 				</section>
 
 				<section>
 					<h2>費用の話</h2>
-                    <p class="left">自分で作ったので制作費は無料です。</p>
-
-					<p class="left" >
-					   現在運営費として月額500円かかっています。
-					</p>
-
-                    <p class="left">
-                    従量課金制サーバーを使用するので、ユーザー数に応じて増やしていきます。</p>
-
-
-                    <p class="left">
-                    (例) 100万PV 30万円の収益 10,000円のサーバー代
+                    <p>
+                    主にかかる費用はサーバーの費用です。
                     </p>
+					<p>
+					   現在は月額500円のサーバーを借りて運用しています。
+					</p>
+                    <p>
+                       これまでにかかった開発費はデザイン、プログラミングを自分ひとりで行ったのでゼロです。
+                    </p>
+                    <p>ユーザー数が増えたところでサーバーはAmazon
+                    EC2で置き換えて運用していく予定です。</p>
 
 				</section>
 
@@ -141,8 +144,6 @@
                     来年中に登録ユーザー1000人,月間300万PV 30万円の収益を目指してます。
                     </p>
                 </section>
-
-
 
 				<section>
 					<h2>出資金の使い道</h2>
