@@ -36,6 +36,10 @@
                 font-weight: bold;
                 padding: 30px;
             }
+            .fixed {
+                height: 100px;
+                width: 300px;
+            }
         </style>
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
@@ -45,6 +49,7 @@
 	<body>
 
 		<div class="reveal">
+            <div id="time">loading </div>
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
@@ -205,7 +210,18 @@
 				]
 			});
 
+            // setInterval
+
+            var sec = 1;
+            setInterval(function(){
+                sec += 1;
+                var $e = document.getElementById("time");
+                $e.innerHTML =  sec + " 秒経過";
+
+            },1000);
 		</script>
+
+
 
 	</body>
 </html>
